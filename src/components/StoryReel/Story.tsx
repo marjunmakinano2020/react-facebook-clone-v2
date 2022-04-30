@@ -16,9 +16,8 @@ function Story(props: StoryProps): React.ReactElement {
       className='story'
       style={{
         backgroundImage: `url(${storyImage})`,
-        backgroundRepeat: 'no-repeat',
-      }}
-    >
+        backgroundRepeat: 'no-repeat'
+      }}>
       <Avatar src={profilePic} className='storyAvatar' />
       <h4>{username}</h4>
     </div>

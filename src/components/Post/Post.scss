@@ -70,11 +70,11 @@
     cursor: pointer;
     display: flex;
     flex-direction: row;
-    padding: 0.5rem 1rem ;
+    padding: 0.5rem 1rem;
     flex: 1;
     align-items: center;
     justify-content: center;
-     
+
     &:hover {
       background-color: $button-hover;
       transform: translateY(-2px);
@@ -89,7 +89,7 @@
         display: none;
       }
     }
-    
+
     .postAction {
       margin: 0 0.5rem;
       color: $icon;

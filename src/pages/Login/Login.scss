@@ -20,7 +20,7 @@
     flex-direction: column;
     align-items: center;
     flex: 1;
-    
+
     @include for-small-screens {
       flex: 0.1;
     }
@@ -69,7 +69,7 @@
     .title {
       font-size: 2.1rem;
       font-weight: 600;
-      @include fluid-type(1.8rem, 2.1rem)
+      @include fluid-type(1.8rem, 2.1rem);
     }
 
     .button {

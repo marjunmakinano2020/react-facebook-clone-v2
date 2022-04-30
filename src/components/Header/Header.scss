@@ -31,14 +31,12 @@
       flex: 0.2;
     }
 
-
     .logo {
       height: 40px;
 
       @include for-small-screens {
         height: 35px;
       }
-
     }
 
     .searchInput {

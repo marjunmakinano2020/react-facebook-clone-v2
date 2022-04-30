@@ -14,7 +14,7 @@ function Home(): React.ReactElement {
       <Header photoUrl={photo} username={user} />
       <div className='homeBody'>
         <SideBar photoUrl={photo} username={user} />
-        <Feed photoUrl={photo} username={user}/>
+        <Feed photoUrl={photo} username={user} />
         <Widget />
       </div>
     </>

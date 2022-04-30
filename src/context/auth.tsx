@@ -24,8 +24,8 @@ export function AuthProvider({ children }: AuthContextProps): JSX.Element {
   const [loading, setLoading] = useState<boolean>(true);
   const [isAuthenticated, setIsAuthenticated] = useState<boolean>(true);
 
-  const signin = async ():Promise<firebase.auth.UserCredential> => {
-    return auth.signInWithPopup(provider)
+  const signin = async (): Promise<firebase.auth.UserCredential> => {
+    return auth.signInWithPopup(provider);
   };
 
   const logout = async (): Promise<void> => {

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './PostAction.scss'
+import './PostAction.scss';
 
 interface PostActionProps {
   Icon: any;
